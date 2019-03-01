@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Copyright>2019 Nick Niverson</Copyright>
+    <Authors>Nick Niverson</Authors>
+    <Description>A simple implementation for reading the NuGet packages.config file.</Description>
+    <RepositoryUrl>https://github.com/nickniverson/NuGet.PackageConfig.Reader</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageProjectUrl>https://github.com/nickniverson/NuGet.PackageConfig.Reader</PackageProjectUrl>
+    <PackageTags>NuGet packages.config package config reader parser simple</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NuGet.PackageConfig.Reader.Contracts\NuGet.PackageConfig.Reader.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

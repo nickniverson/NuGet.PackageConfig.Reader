@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Copyright>2019 Nick Niverson</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Description>Separated interface assembly for NuGet.PackageConfig.Reader.  Contains only interfaces, models, and exceptions used for reading the NuGet packages.config file.</Description>
+    <PackageId>NuGet.PackageConfig.Reader.Contracts</PackageId>
+    <Authors>Nick Niverson</Authors>
+    <Company></Company>
+    <Product></Product>
+    <PackageTags>NuGet packages.config package config reader parser simple contract interface</PackageTags>
+    <PackageProjectUrl>https://github.com/nickniverson/NuGet.PackageConfig.Reader</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nickniverson/NuGet.PackageConfig.Reader</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+  </PropertyGroup>
+
+</Project>
