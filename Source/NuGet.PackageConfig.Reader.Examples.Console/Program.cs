@@ -47,6 +47,15 @@ namespace NuGet.PackageConfig.Reader.Examples.Console
 		}
 
 
+		private void WriteHeader(string message)
+		{
+			WriteLine(message);
+			WriteLine("-".PadRight(message.Length, '-'));
+			WriteEmptyLines(2);
+
+		}
+
+
 		private void Display(Package package, string packageConfigFile)
 		{
 			WriteLine($"package.Id: {package.Id}");
@@ -56,15 +65,6 @@ namespace NuGet.PackageConfig.Reader.Examples.Console
 			WriteLine($"package.DevelopmentDependency: {package.DevelopmentDependency}");
 
 			WriteEmptyLines(2);
-		}
-
-
-		private void WriteHeader(string message)
-		{
-			WriteLine(message);
-			WriteLine("-".PadRight(message.Length, '-'));
-			WriteEmptyLines(2);
-
 		}
 
 
