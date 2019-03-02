@@ -64,7 +64,7 @@ namespace NuGet.PackageConfig.Reader.Contracts
 To see additional examples of how to use this library, check out the [unit tests](https://github.com/nickniverson/NuGet.PackageConfig.Reader/blob/master/Source/NuGet.PackageConfig.Reader.Tests/PackageConfigReaderTests.cs).
 
 
-The example console application below can be found here.  
+The example console application below can be found [here](https://github.com/nickniverson/NuGet.PackageConfig.Reader/tree/master/Source/NuGet.PackageConfig.Reader.Examples.Console).  
 
 
 ``` CSharp
